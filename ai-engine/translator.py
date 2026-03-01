@@ -76,3 +76,9 @@ def translate_query(request: QueryRequest):
 
     except Exception as e:
         return {"error": True, "message": str(e)}
+    
+import uvicorn
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    uvicorn.run("translator:app", host="0.0.0.0", port=port)
