@@ -34,6 +34,8 @@ This project was built to enhance understanding of:
 - Display query results dynamically
 - Clean and user-friendly UI
 - Simple authentication & session management
+- Editable AI Generated Query, JSON Format and also Table View
+- Specialy build for non technical employees/person
 
 
 ## 🛠️ Tech Stack
@@ -52,4 +54,5 @@ Abhishek Ugare
 Email: abhishekugare1289@gmail.com                                
 LinkedIn: www.linkedin.com/in/abhishek-ugare-a289s85k                                                                                                                                                      
 Portfolio: https://abhi8hero.github.io/portfolio-abhishek_ugare/
+
 
