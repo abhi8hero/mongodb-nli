@@ -1,0 +1,27 @@
+# =========================
+# Node / React
+# =========================
+node_modules/
+build/
+dist/
+
+# =========================
+# Environment Files
+# =========================
+.env
+backend/.env
+frontend/.env
+ai-engine/.env
+
+# =========================
+# Python (AI Engine)
+# =========================
+ai-engine/venv/
+ai-engine/__pycache__/
+*.pyc
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
