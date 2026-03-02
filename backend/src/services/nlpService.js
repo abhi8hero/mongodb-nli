@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const AI_URL = "http://127.0.0.1:8000/translate";
+const AI_URL = "https://mongodb-nli-ai-engine.onrender.com/translate";
 
 async function translateToMongoQuery(naturalLanguageQuery) {
   try {
