@@ -11,7 +11,7 @@ const updateRoutes = require('./routes/updateRoutes');
 const app = express();
 
 app.use(cors({
-  origin: "https://mongodb-nli-l7cv.onrender.com",
+  origin: "https://mongodb-nli.onrender.com",
   credentials: false
 }));
 
