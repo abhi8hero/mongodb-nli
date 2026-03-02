@@ -11,10 +11,10 @@ const updateRoutes = require('./routes/updateRoutes');
 const app = express();
 
 app.use(cors({
-  origin: "*",
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"]
+  origin: "https://mongodb-nli-l7cv.onrender.com",
+  credentials: false
 }));
+
 app.use(express.json());
 
 /* Swagger Setup */
