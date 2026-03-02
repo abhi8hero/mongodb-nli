@@ -117,38 +117,6 @@ function simpleParser(input) {
     };
   }
 
-  // ==========================
-  // SHOW / FIND
-  // ==========================
-
-  match = text.match(/^show (\w+)(.*)/);
-
-  if (match) {
-
-    const collection = match[1];
-    const rest = match[2];
-
-    const filter = {};
-
-    // extract key value pairs
-    const fieldMatches = [...rest.matchAll(/(\w+)\s+(\w+)/g)];
-
-    fieldMatches.forEach(pair => {
-      const key = pair[1];
-      const value = pair[2];
-
-      filter[key] = isNaN(value) ? value : Number(value);
-    });
-
-    return {
-      operations: [{
-        collection,
-        operation: "find",
-        filter
-      }]
-    };
-  }
-
   return null;
 }
 
