@@ -16,7 +16,7 @@ This project was built to enhance understanding of:
 
 
 ## 🚀 Live Demo
-🔗 Live Demo: https://mongodb-nli-l7cv.onrender.com                                                                                        
+🔗 Live Demo: https://mongodb-nli.onrender.com                                                                                                                                                                 
 🚧 Currently running locally / on Render
 
 
@@ -54,5 +54,6 @@ Abhishek Ugare
 Email: abhishekugare1289@gmail.com                                
 LinkedIn: www.linkedin.com/in/abhishek-ugare-a289s85k                                                                                                                                                      
 Portfolio: https://abhi8hero.github.io/portfolio-abhishek_ugare/
+
 
 
