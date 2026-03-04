@@ -17,7 +17,8 @@ This project was built to enhance understanding of:
 
 ## 🚀 Live Demo
 🔗 Live Demo: https://mongodb-nli.onrender.com        
-🎥 Video Link: https://drive.google.com/file/d/1GcAY2XNl8Se2qWqksed8XLOaYH8qZt_D/view?usp=drive_link                                                                    
+🎥 Video Link: https://drive.google.com/file/d/1GcAY2XNl8Se2qWqksed8XLOaYH8qZt_D/view?usp=drive_link                                              
+📃 Document: https://drive.google.com/file/d/1cSiJKHvrRaPMaRPN3F0-XERYKJLJK08i/view?usp=drive_link
 🚧 Currently running locally / on Render ( Delays for first request, to avoid delay start AI server by clicking https://mongodb-nli-ai-engine.onrender.com )
 
 
@@ -55,6 +56,7 @@ Abhishek Ugare
 Email: abhishekugare1289@gmail.com                                
 LinkedIn: www.linkedin.com/in/abhishek-ugare-a289s85k                                                                                                                                                      
 Portfolio: https://abhi8hero.github.io/portfolio-abhishek_ugare/
+
 
 
 
