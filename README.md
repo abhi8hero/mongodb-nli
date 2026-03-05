@@ -41,8 +41,6 @@ This project was built to enhance understanding of:
 
 
 ## 🛠️ Tech Stack
-- **HTML5** – Structure
-- **CSS3** – Styling
 - **React** – Frontend logic
 - **Node.js** – Backend API
 - **MongoDB** – Database operations
@@ -56,6 +54,7 @@ Abhishek Ugare
 Email: abhishekugare1289@gmail.com                                
 LinkedIn: www.linkedin.com/in/abhishek-ugare-a289s85k                                                                                                                                                      
 Portfolio: https://abhi8hero.github.io/portfolio-abhishek_ugare/
+
 
 
 
