@@ -25,7 +25,11 @@ def load_prompt(user_query: str) -> str:
 
 def validate_operation(op: dict):
 
-    required = ["collection", "operation", "filter", "sort", "limit", "data"]
+    required = ["collection", "operation"]
+    op.setdefault("filter", {})
+    op.setdefault("sort", {})
+    op.setdefault("limit", 0)
+    op.setdefault("data", {})
 
     for key in required:
         if key not in op:
@@ -55,7 +59,7 @@ def translate_query(request: QueryRequest):
 
         raw_text = response.text.strip()
 
-        match = re.search(r"\{.*\}", raw_text, re.DOTALL)
+        match = re.search(r"\{[\s\S]*\}", raw_text)
         if not match:
             return {"error": True, "message": "Invalid AI response"}
 
