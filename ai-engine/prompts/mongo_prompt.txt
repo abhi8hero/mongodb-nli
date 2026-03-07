@@ -13,7 +13,7 @@ STRICT RULES:
   "operations": [
     {
       "collection": "string",
-      "operation": "find|insert|update|delete|count|create",
+      "operation": "find|insert|update|delete|count",
       "filter": {},
       "sort": {},
       "limit": 0,
@@ -22,25 +22,18 @@ STRICT RULES:
   ]
 }
 
-Examples:
+CONDITION RULES:
 
-User: add Sagar with 30000 in funds
-Return:
-{
-  "operations": [
-    {
-      "collection": "funds",
-      "operation": "insert",
-      "filter": {},
-      "sort": {},
-      "limit": 0,
-      "data": {
-        "name": "Sagar",
-        "amount": 30000
-      }
-    }
-  ]
-}
+age greater than X → { "age": { "$gt": X } }  
+age above X → { "age": { "$gt": X } }  
+age less than X → { "age": { "$lt": X } }  
+age below X → { "age": { "$lt": X } }  
+age equal to X → { "age": X }  
+
+city pune → { "city": "Pune" }  
+city mumbai → { "city": "Mumbai" }
+
+Examples:
 
 User: find all users
 Return:
@@ -50,6 +43,21 @@ Return:
       "collection": "users",
       "operation": "find",
       "filter": {},
+      "sort": {},
+      "limit": 0,
+      "data": {}
+    }
+  ]
+}
+
+User: find users above age 25 in users
+Return:
+{
+  "operations": [
+    {
+      "collection": "users",
+      "operation": "find",
+      "filter": { "age": { "$gt": 25 } },
       "sort": {},
       "limit": 0,
       "data": {}
