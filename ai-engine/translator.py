@@ -8,6 +8,14 @@ from dotenv import load_dotenv
 
 app = FastAPI()
 
+@app.get("/")
+def root():
+    return {"message": "MongoDB NLI AI Engine is running"}
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
 load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
