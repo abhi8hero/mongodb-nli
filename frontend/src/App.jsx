@@ -271,7 +271,7 @@ function App() {
               <div className="flex flex-col">
                 <textarea
                   className={`h-32 ${theme.input} border ${theme.border} rounded-xl p-4 mb-4 w-full`}
-                  placeholder="Example : Find all users above age 25..."
+                  placeholder="Example : Find all users... / Find users age 25... / Show all funds..."
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                 />
